@@ -1,0 +1,17 @@
+{"rule":"trap","func":"sin","a":0,"b":3.1415926535897931,"n":64,"threads":1,"workK":0,"best_s":0.000003,"median_s":0.000003,"result":1.9995983886400375}
+{"rule":"trap","func":"sin","a":0,"b":3.1415926535897931,"n":128,"threads":1,"workK":0,"best_s":0.000004,"median_s":0.000004,"result":1.9998996001842038}
+{"rule":"trap","func":"sin","a":0,"b":3.1415926535897931,"n":256,"threads":1,"workK":0,"best_s":0.000005,"median_s":0.000005,"result":1.9999749002350531}
+{"rule":"trap","func":"sin","a":0,"b":3.1415926535897931,"n":512,"threads":1,"workK":0,"best_s":0.000012,"median_s":0.000012,"result":1.9999937250705768}
+{"rule":"trap","func":"sin","a":0,"b":3.1415926535897931,"n":1024,"threads":1,"workK":0,"best_s":0.000024,"median_s":0.000024,"result":1.9999984312683834}
+{"rule":"trap","func":"sin","a":0,"b":3.1415926535897931,"n":2048,"threads":1,"workK":0,"best_s":0.000046,"median_s":0.000046,"result":1.9999996078171378}
+{"rule":"trap","func":"sin","a":0,"b":3.1415926535897931,"n":4096,"threads":1,"workK":0,"best_s":0.000087,"median_s":0.000087,"result":1.9999999019542845}
+{"rule":"trap","func":"sin","a":0,"b":3.1415926535897931,"n":8192,"threads":1,"workK":0,"best_s":0.000180,"median_s":0.000198,"result":1.9999999754885744}
+{"rule":"trap","func":"sin","a":0,"b":3.1415926535897931,"n":16384,"threads":1,"workK":0,"best_s":0.000357,"median_s":0.000362,"result":1.999999993872138}
+{"rule":"trap","func":"sin","a":0,"b":3.1415926535897931,"n":32768,"threads":1,"workK":0,"best_s":0.000747,"median_s":0.000773,"result":1.9999999984680268}
+{"rule":"trap","func":"sin","a":0,"b":3.1415926535897931,"n":65536,"threads":1,"workK":0,"best_s":0.001548,"median_s":0.002386,"result":1.999999999617015}
+{"rule":"trap","func":"sin","a":0,"b":3.1415926535897931,"n":131072,"threads":1,"workK":0,"best_s":0.003963,"median_s":0.004183,"result":1.9999999999042997}
+{"rule":"trap","func":"sin","a":0,"b":3.1415926535897931,"n":262144,"threads":1,"workK":0,"best_s":0.010461,"median_s":0.015677,"result":1.999999999976068}
+{"rule":"trap","func":"sin","a":0,"b":3.1415926535897931,"n":524288,"threads":1,"workK":0,"best_s":0.016790,"median_s":0.022161,"result":1.9999999999940019}
+{"rule":"trap","func":"sin","a":0,"b":3.1415926535897931,"n":1048576,"threads":1,"workK":0,"best_s":0.020514,"median_s":0.021324,"result":1.9999999999985156}
+{"rule":"trap","func":"sin","a":0,"b":3.1415926535897931,"n":2097152,"threads":1,"workK":0,"best_s":0.040081,"median_s":0.042292,"result":1.9999999999997635}
+{"rule":"trap","func":"sin","a":0,"b":3.1415926535897931,"n":4194304,"threads":1,"workK":0,"best_s":0.074617,"median_s":0.075148,"result":2.0000000000001132}

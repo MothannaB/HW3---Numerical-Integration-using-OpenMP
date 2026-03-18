@@ -1,0 +1,3 @@
+{"rule":"simp","func":"sin","a":0,"b":3.1415926535897931,"n":134217728,"threads":1,"workK":0,"accum":"reduction","best_s":1.415007,"median_s":1.464955,"result":1.9999999999987159}
+{"rule":"simp","func":"sin","a":0,"b":3.1415926535897931,"n":536870912,"threads":4,"workK":0,"accum":"reduction","best_s":7.237380,"median_s":7.408702,"result":2.0000000000000466}
+{"rule":"simp","func":"sin","a":0,"b":3.1415926535897931,"n":1073741824,"threads":8,"workK":0,"accum":"reduction","best_s":14.603787,"median_s":14.733206,"result":2.0000000000000502}

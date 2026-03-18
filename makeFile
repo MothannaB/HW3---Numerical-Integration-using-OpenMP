@@ -1,0 +1,46 @@
+# =========================
+# Makefile (build with -O3 -fopenmp)
+# =========================
+
+# ---- Toolchain ----
+CC      := gcc
+CSTD    := -std=c11
+
+# ---- Compile & Link Flags ----
+CFLAGS  := -O3 -march=native $(CSTD) -fopenmp -Wall -Wextra
+LDFLAGS := -fopenmp
+LDLIBS  := -lm
+
+# ---- Files ----
+SRC     := myfile.c
+TARGET  := myprogram
+
+# ---- Default ----
+.PHONY: all
+all: $(TARGET)
+
+# ---- Link rule ----
+$(TARGET): $(SRC)
+    $(CC) $(CFLAGS) $^ -o $@ $(LDFLAGS) $(LDLIBS)
+
+# ---- Convenience: debug build (no optimization, extra diagnostics) ----
+.PHONY: debug
+debug:
+    $(CC) -Og -g -march=native $(CSTD) -fopenmp -Wall -Wextra $(SRC) -o $(TARGET) $(LDFLAGS) $(LDLIBS)
+
+# ---- Run a quick sanity check (Simpson, ~1M intervals, 1 thread) ----
+.PHONY: run
+run: $(TARGET)
+    ./$(TARGET) --rule simp --func sin --a 0 --b 3.141592653589793 \
+                --n 1048576 --threads 1 --work 0 --schedule static,1
+
+# ---- Cleaning ----
+.PHONY: clean
+clean:
+    rm -f $(TARGET)
+
+.PHONY: distclean
+distclean: clean
+    rm -f partC/*.json partD/*.json partE/*.json \
+          partC/*.png  partD/*.png  partE/*.png
+``

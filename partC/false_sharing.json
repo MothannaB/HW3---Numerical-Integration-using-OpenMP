@@ -1,0 +1,2 @@
+{"rule":"trap","func":"sin","a":0,"b":3.1415926535897931,"n":8388608,"threads":4,"workK":0,"accum":"reduction","best_s":0.111658,"median_s":0.114336,"result":2.0000000000000191}
+{"rule":"trap","func":"sin","a":0,"b":3.1415926535897931,"n":8388608,"threads":4,"workK":0,"accum":"padded","best_s":0.114468,"median_s":0.139124,"result":2.0000000000000191}

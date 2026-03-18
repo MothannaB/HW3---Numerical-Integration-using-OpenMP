@@ -1,0 +1,9 @@
+{"rule":"simp","func":"sin","a":0,"b":3.1415926535897931,"n":64,"threads":1,"workK":0,"accum":"reduction","best_s":0.000003,"median_s":0.000003,"result":2.0000000645300013}
+{"rule":"simp","func":"sin","a":0,"b":3.1415926535897931,"n":128,"threads":1,"workK":0,"accum":"reduction","best_s":0.000004,"median_s":0.000004,"result":2.0000000040322572}
+{"rule":"simp","func":"sin","a":0,"b":3.1415926535897931,"n":256,"threads":1,"workK":0,"accum":"reduction","best_s":0.000006,"median_s":0.000006,"result":2.0000000002520024}
+{"rule":"simp","func":"sin","a":0,"b":3.1415926535897931,"n":512,"threads":1,"workK":0,"accum":"reduction","best_s":0.000009,"median_s":0.000010,"result":2.0000000000157496}
+{"rule":"simp","func":"sin","a":0,"b":3.1415926535897931,"n":1024,"threads":1,"workK":0,"accum":"reduction","best_s":0.000018,"median_s":0.000018,"result":2.0000000000009841}
+{"rule":"simp","func":"sin","a":0,"b":3.1415926535897931,"n":2048,"threads":1,"workK":0,"accum":"reduction","best_s":0.000031,"median_s":0.000031,"result":2.00000000000006}
+{"rule":"simp","func":"sin","a":0,"b":3.1415926535897931,"n":4096,"threads":1,"workK":0,"accum":"reduction","best_s":0.000062,"median_s":0.000064,"result":2.0000000000000044}
+{"rule":"simp","func":"sin","a":0,"b":3.1415926535897931,"n":8192,"threads":1,"workK":0,"accum":"reduction","best_s":0.000118,"median_s":0.000119,"result":1.9999999999999989}
+{"rule":"simp","func":"sin","a":0,"b":3.1415926535897931,"n":16384,"threads":1,"workK":0,"accum":"reduction","best_s":0.000246,"median_s":0.000246,"result":2.0000000000000036}

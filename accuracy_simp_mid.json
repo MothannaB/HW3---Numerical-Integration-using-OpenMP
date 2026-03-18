@@ -1,0 +1,9 @@
+{"rule":"simp","func":"sin","a":0,"b":3.1415926535897931,"n":64,"threads":1,"workK":0,"best_s":0.000003,"median_s":0.000004,"result":2.0000000645300013}
+{"rule":"simp","func":"sin","a":0,"b":3.1415926535897931,"n":128,"threads":1,"workK":0,"best_s":0.000005,"median_s":0.000005,"result":2.0000000040322572}
+{"rule":"simp","func":"sin","a":0,"b":3.1415926535897931,"n":256,"threads":1,"workK":0,"best_s":0.000008,"median_s":0.000009,"result":2.0000000002520024}
+{"rule":"simp","func":"sin","a":0,"b":3.1415926535897931,"n":512,"threads":1,"workK":0,"best_s":0.000014,"median_s":0.000014,"result":2.0000000000157496}
+{"rule":"simp","func":"sin","a":0,"b":3.1415926535897931,"n":1024,"threads":1,"workK":0,"best_s":0.000026,"median_s":0.000026,"result":2.0000000000009841}
+{"rule":"simp","func":"sin","a":0,"b":3.1415926535897931,"n":2048,"threads":1,"workK":0,"best_s":0.000042,"median_s":0.000044,"result":2.00000000000006}
+{"rule":"simp","func":"sin","a":0,"b":3.1415926535897931,"n":4096,"threads":1,"workK":0,"best_s":0.000093,"median_s":0.000093,"result":2.0000000000000044}
+{"rule":"simp","func":"sin","a":0,"b":3.1415926535897931,"n":8192,"threads":1,"workK":0,"best_s":0.000174,"median_s":0.000184,"result":1.9999999999999989}
+{"rule":"simp","func":"sin","a":0,"b":3.1415926535897931,"n":16384,"threads":1,"workK":0,"best_s":0.000369,"median_s":0.000394,"result":2.0000000000000036}
